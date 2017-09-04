@@ -1,1 +1,1 @@
-alert("Pooping hard");
+alert("Your car is on fire!");
