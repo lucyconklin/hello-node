@@ -1,8 +1,8 @@
 var express = require('express');
-
 var app = express();
 var PORT = process.env.PORT || 8080;
 
+app.use(express.static(path.join(__dirname, 'public')));
 //ROUTES GO HERE:
 app.get('/', function(request, response) {
   response.sendFile(__dirname + '/index.html')
