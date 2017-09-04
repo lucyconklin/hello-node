@@ -1,1 +1,1 @@
-alert("This is an alert");
+alert("Your car is on fire!");
